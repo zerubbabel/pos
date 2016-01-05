@@ -66,7 +66,7 @@ function post_person_form_submit(response)
 		<?php if ($controller_name =='customers') {?>
 			<?php echo anchor("$controller_name/excel_import/width:$form_width",
 			"<div class='big_button' style='float: left;'><span>" . $this->lang->line('common_import_excel') . "</span></div>",
-				array('class'=>'thickbox none','title'=>'Import Items from Excel'));
+				array('class'=>'thickbox none','title'=>$this->lang->line('common_import_excel')));
 			?>	
 		<?php } ?>
 	</div>

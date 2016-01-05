@@ -48,13 +48,13 @@ $(document).ready(function()
 		</div>
 		
 		<div id="submit_button">
-		<?php echo form_submit('loginButton','Go'); ?>
+		<?php echo form_submit('loginButton',$this->lang->line('login_go')); ?>
 		</div>
 		
 		
 	</div>
 	
 </div>
-<?php echo form_close(); ?><h1>Open Source Point Of Sale <?php echo $this->config->item('application_version'); ?></h1>
+<?php echo form_close(); ?><h1>Zion管理系统 <?php echo $this->config->item('application_version'); ?></h1>
 </body>
 </html>

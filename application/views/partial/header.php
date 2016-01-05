@@ -4,7 +4,7 @@
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<base href="<?php echo base_url();?>" />
-	<title><?php echo $this->config->item('company').' -- '.$this->lang->line('common_powered_by').' OS Point Of Sale' ?></title>
+	<title><?php echo $this->config->item('company')?></title>
 	<link rel="stylesheet" type="text/css" href="css/ospos.css"/>
 	<link rel="stylesheet" type="text/css" href="css/ospos_print.css" media="print" />
 	<?php if ($this->input->cookie('debug') == "true" || $this->input->get("debug") == "true") : ?>
@@ -61,7 +61,7 @@ html {
 	<div id="menubar_container">
 		<div id="menubar_company_info">
 		<span id="company_title"><?php echo $this->config->item('company'); ?></span><br />
-		<span style='font-size:8pt;'><?php echo $this->lang->line('common_powered_by').' Open Source Point Of Sale'; ?></span>
+		
 	</div>
 
 		<div id="menubar_navigation">
@@ -85,7 +85,7 @@ html {
 		</div>
 		
 		<div id="menubar_date">
-		    <?php echo date('F d, Y h:i a') ?>
+		    <?php echo date('Y-m-d G:i') ?>
 		</div>
 
 	</div>
