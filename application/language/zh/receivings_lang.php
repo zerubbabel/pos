@@ -2,7 +2,7 @@
 
 $lang["receivings_transaction_failed"] = "进货交易失败";
 $lang["recvs_basic_information"] = "";
-$lang["recvs_cancel_receiving"] = "";
+$lang["recvs_cancel_receiving"] = "取消";
 $lang["recvs_cannot_be_deleted"] = "";
 $lang["recvs_comments"] = "";
 $lang["recvs_complete_receiving"] = "完成";
@@ -23,7 +23,7 @@ $lang["recvs_error_requisition"] = "";
 $lang["recvs_find_or_scan_item"] = "查找 / 扫描产品";
 $lang["recvs_find_or_scan_item_or_receipt"] = "查找 / 扫描产品或收据";
 $lang["recvs_id"] = "进货编号";
-$lang["recvs_invoice_enable"] = "Create Invoice";
+$lang["recvs_invoice_enable"] = "开发票";
 $lang["recvs_invoice_number"] = "";
 $lang["recvs_invoice_number_duplicate"] = "";
 $lang["recvs_item_name"] = "产品名称";
@@ -38,7 +38,7 @@ $lang["recvs_receiving"] = "收货";
 $lang["recvs_register"] = "产品进货";
 $lang["recvs_requisition"] = "";
 $lang["recvs_return"] = "退货";
-$lang["recvs_select_supplier"] = "选择供应商 (Optional)";
+$lang["recvs_select_supplier"] = "选择供应商 (可选)";
 $lang["recvs_start_typing_supplier_name"] = "开始输入供应商名称...";
 $lang["recvs_stock_destination"] = "Stock destination";
 $lang["recvs_stock_locaiton"] = "Stock location";
