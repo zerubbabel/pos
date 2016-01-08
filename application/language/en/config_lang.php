@@ -115,3 +115,7 @@ $lang["config_thousands_separator"] = "Thousands Separator";
 $lang["config_timezone"] = "Timezone";
 $lang["config_use_invoice_template"] = "Use invoice template";
 $lang["config_website"] = "Website";
+$lang["config_general"] = "General";
+$lang["config_barcode"] = "Barcode";
+$lang["config_locations"] = "Locations";
+$lang["config_receipt"] = "Receipt";

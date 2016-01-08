@@ -6,10 +6,10 @@
     <div id="title" class="float_left"><?php echo $this->lang->line('module_config'); ?></div>
 </div>
 <ul class="tabs" data-persist="true">
-    <li><a href="#general_config">General</a></li>
-    <li><a href="#barcode_config">Barcode</a></li>
-    <li><a href="#location_config">Locations</a></li>
-    <li><a href="#receipt_config">Receipt</a></li>
+    <li><a href="#general_config"><?php echo $this->lang->line('config_general'); ?></a></li>
+    <li><a href="#barcode_config"><?php echo $this->lang->line('config_barcode'); ?></a></li>
+    <li><a href="#location_config"><?php echo $this->lang->line('config_locations'); ?></a></li>
+    <li><a href="#receipt_config"><?php echo $this->lang->line('config_receipt'); ?></a></li>
 </ul>
 
 <div class="tabcontents">

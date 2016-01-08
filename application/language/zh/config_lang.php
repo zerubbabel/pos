@@ -115,3 +115,7 @@ $lang["config_thousands_separator"] = "千位分隔符";
 $lang["config_timezone"] = "时区";
 $lang["config_use_invoice_template"] = "使用发票模板";
 $lang["config_website"] = "网站";
+$lang["config_general"] = "一般";
+$lang["config_barcode"] = "条形码";
+$lang["config_locations"] = "仓库";
+$lang["config_receipt"] = "票据";
